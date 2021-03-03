@@ -24,3 +24,6 @@ noremap \M :set mouse=<CR>
 noremap \c :e %<.c<CR>
 noremap \C :e %<.cpp<CR>
 noremap \h :e %<.h<CR>
+noremap \w :w<CR>
+noremap \P :vnoremap p "0p<CR>
+noremap \p :unmap p<CR>
